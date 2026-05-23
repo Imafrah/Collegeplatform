@@ -19,8 +19,16 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="text-lg font-bold text-slate-900">
-          College Discovery
+        <Link href="/" className="flex items-center gap-2 text-lg font-bold text-slate-900">
+          <Image
+            src="/collegeplatform_Logo.png"
+            alt="College Discovery logo"
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-10 rounded-lg object-contain"
+          />
+          <span className="hidden sm:inline">College Discovery</span>
         </Link>
 
         <div className="hidden items-center gap-1 sm:flex">
