@@ -33,7 +33,7 @@ export default async function Home() {
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-bold text-slate-900">Featured colleges</h2>
-            <p className="mt-1 text-slate-600">Top-rated institutions from the database.</p>
+            <p className="mt-1 text-slate-600">Top-rated institutions in India.</p>
           </div>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
